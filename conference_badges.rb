@@ -1,6 +1,6 @@
 # Write your code here.
 
-def batch_maker (arr)
+def badge_maker (arr)
   count = 0
   arr.each do |speaker|
     return "Hello, my name is #{speaker}."
