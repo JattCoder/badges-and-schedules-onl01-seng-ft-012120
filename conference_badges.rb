@@ -1,6 +1,9 @@
 # Write your code here.
 
 def batch_badge_creator (arr)
+  arr.each do |person|
+    puts "Hello, my name is #{person}."
+  end
   assign_rooms(arr)
 end
 
