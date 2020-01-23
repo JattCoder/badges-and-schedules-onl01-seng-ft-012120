@@ -12,7 +12,7 @@ end
 def assign_rooms (arr)
   roomnum = 1
   arr.each do |person|
-    arr[roomnum-1] "Hello #{person}! You'll be assigned to room #{roomnum}!"
+    arr[roomnum-1] = "Hello #{person}! You'll be assigned to room #{roomnum}!"
     roomnum += 1
   end
   return arr
