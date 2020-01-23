@@ -15,4 +15,6 @@ def assign_rooms (arr)
     arr[count] = "Hello, #{speaker}! You'll be assigned to room #{roomcount}!"
     count += 1
     roomcount += 1
+  end
+  return arr
 end
