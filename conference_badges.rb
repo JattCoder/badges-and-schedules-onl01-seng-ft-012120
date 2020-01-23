@@ -2,18 +2,17 @@
 
 def batch_badge_creator (arr)
   count = 0
-  arr.each do |person|
-    arr[count] = "Hello, my name is #{person}."
-    count += 1
+  arr.each do |speaker|
+    return "Hello, my name is #{speaker}." 
   end
-  assign_rooms(arr)
+  assign_rooms (arr)
 end
 
 def assign_rooms (arr)
-  roomnum = 1
-  arr.each do |person|
-    arr[roomnum-1] = "Hello #{person}! You'll be assigned to room #{roomnum}!"
-    roomnum += 1
-  end
-  return arr
+  roomcount = 1
+  count = roomcount - 1
+  arr.each do |speaker|
+    arr[count] = "Hello, #{speaker}! You'll be assigned to room #{roomcount}!"
+    count += 1
+    roomcount += 1
 end
