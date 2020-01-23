@@ -3,7 +3,7 @@
 def batch_badge_creator (arr)
   count = 0
   arr.each do |person|
-    return = "Hello, my name is #{person}."
+    return "Hello, my name is #{person}."
   end
   assign_rooms(arr)
 end
