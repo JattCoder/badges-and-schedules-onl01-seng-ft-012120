@@ -15,4 +15,5 @@ def assign_rooms (arr)
     arr[roomnum-1] "Hello #{person}! You'll be assigned to room #{roomnum}!"
     roomnum += 1
   end
+  return arr
 end
